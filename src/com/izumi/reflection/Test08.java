@@ -46,7 +46,7 @@ public class Test08 {
         System.out.println(getName);
         System.out.println(setName);
 
-        // 获取指定的构造器
+        // 获取构造器
         Constructor[] constructors = c1.getConstructors();
         for (Constructor constructor : constructors) {
             System.out.println(constructor);
